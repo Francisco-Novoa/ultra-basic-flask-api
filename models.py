@@ -12,5 +12,5 @@ class Contact(db.Model):
         return{
             "id": self.id,
             "name": self.name,
-            "phone": self.name
+            "phone": self.phone
         }
